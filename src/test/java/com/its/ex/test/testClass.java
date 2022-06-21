@@ -14,7 +14,7 @@ public class testClass {
     // 호출후 리턴값을 print
     @Test
     public void saveTest(){
-        Long testResult = testService.save();
-        System.out.println("testResult = " + testResult);
+        //Long testResult = testService.save();
+        // System.out.println("testResult = " + testResult);
     }
 }
