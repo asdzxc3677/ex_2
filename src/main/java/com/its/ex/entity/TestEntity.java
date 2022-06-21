@@ -35,4 +35,12 @@ public class TestEntity { //테이블
         testEntity.setTestColumn2(testDTO.getTestColumn2());
         return testEntity;
     }
+
+    public static TestEntity toUpdateEntity(TestDTO testDTO) {
+        TestEntity testEntity = new TestEntity();
+        testEntity.setId(testDTO.getId());
+        testEntity.setColumn1(testDTO.getColumn1());
+        testEntity.setTestColumn2(testDTO.getTestColumn2());
+        return testEntity;
+    }
 }
